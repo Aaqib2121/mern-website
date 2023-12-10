@@ -12,6 +12,7 @@ console.log(data)
       images: data.images,
       price: data.price,
       countInStock: data.countInStock,
+      whatsappNumber: data.whatsappNumber,
       qty,
     },
   })

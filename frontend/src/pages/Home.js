@@ -12,14 +12,14 @@ const Home = () => {
     return (
         <>
         <Helmet>
-            <title>EAST CLOTHING</title>
+            <title>Renew Laptop</title>
         </Helmet>
              <div>
                 <Slider/>
                  <div className="cards">
-                         <Cardscg title='Women'/>
-                         <Cardscg title='Men'/>
-                         <Cardscg title='Accessoires'/>                
+                         <Cardscg title='Laptop'/>
+                         <Cardscg title='Computer'/>
+                         <Cardscg title='Other Accessoires'/>                
                  </div>
                 <CgDiv/>
                 <ProductsC/>

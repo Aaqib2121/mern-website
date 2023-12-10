@@ -4,7 +4,11 @@ import { Helmet } from 'react-helmet';
 
 import {Form, Image} from 'react-bootstrap'
 import {useDispatch, useSelector} from 'react-redux'
-import {BsArrowRight} from "react-icons/all"
+// Import 'BsArrowRight' from 'react-icons/bs' namespace
+import { BsArrowRight } from 'react-icons/bs';
+
+// ... rest of your code
+
 import avatar from './img/avatare.svg'
 import login from '../../actions/userActions'
 import login_svg from './img/login.svg'
